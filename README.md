@@ -24,3 +24,9 @@ New-Item –Path $Profile –Type File –Force
 [Credential Quickstart](https://porter.sh/quickstart/credentials/)
 
 ## Install Mixins
+
+[Mixins](https://porter.sh/mixins/)
+
+## Install Plugins
+
+[Plugins](https://porter.sh/plugins/)
