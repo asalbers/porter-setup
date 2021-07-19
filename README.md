@@ -14,6 +14,7 @@ New-Item –Path $Profile –Type File –Force
 ```
 
 [Porter install](https://porter.sh/install/)
+MacOS/Linux: Don't forget to add the end of the install script to your shell profile
 
 ## Quick Starts
 
@@ -22,6 +23,15 @@ New-Item –Path $Profile –Type File –Force
 [Parameter Quickstart](https://porter.sh/quickstart/parameters/)
 
 [Credential Quickstart](https://porter.sh/quickstart/credentials/)
+
+```sh
+Missing Commands
+
+porter credentials generate github --reference getporter/credentials-tutorial:v0.1.0
+
+porter install --cred github --reference getporter/credentials-tutorial:v0.1.0
+```
+
 
 ## Install Mixins
 
