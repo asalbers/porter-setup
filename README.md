@@ -11,6 +11,9 @@ Test-Path $Profile
 
 # Creates a new profle and overwrites current
 New-Item –Path $Profile –Type File –Force
+
+# You may have to add the command below to your powershell profile if porter commands do not work
+$env:PATH+=";$env:USERPROFILE\.porter"
 ```
 
 [Porter install](https://porter.sh/install/)
