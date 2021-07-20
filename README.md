@@ -30,9 +30,17 @@ MacOS/Linux: Don't forget to add the end of the install script to your shell pro
 ```sh
 Missing Commands: Use these when going through the credential quickstart
 
+# powershell env variable with your github token 
+$env:GITHUB_TOKEN = ""
+
+# Used in the CREATE A CREDENTIAL SET section
 porter credentials generate github --reference getporter/credentials-tutorial:v0.1.0
 
+# Used in SPECIFY A CREDENTIAL WITH A CREDENTIAL SET
 porter install --cred github --reference getporter/credentials-tutorial:v0.1.0
+
+# Example of credential set with a file path
+porter install --cred ./github-creds.json --reference getporter/credentials-tutorial:v0.1.0
 ```
 
 
