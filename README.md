@@ -25,7 +25,7 @@ MacOS/Linux: Don't forget to add the end of the install script to your shell pro
 [Credential Quickstart](https://porter.sh/quickstart/credentials/)
 
 ```sh
-Missing Commands
+Missing Commands: Use these when going through the credential quickstart
 
 porter credentials generate github --reference getporter/credentials-tutorial:v0.1.0
 
